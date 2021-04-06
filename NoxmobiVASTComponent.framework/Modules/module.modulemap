@@ -1,0 +1,6 @@
+framework module NoxmobiVASTComponent {
+  umbrella header "NoxmobiVASTComponent.h"
+
+  export *
+  module * { export * }
+}
