@@ -5,12 +5,9 @@
 PodName="NoxmobiVASTComponent"
 
 echo "\n🔥当前版本号："
-# 打印一下当前情况
-#sed -n '/Mark/ p' $PodName.podspec
-currentLine=`cat $PodName.podspec | grep "Mark"`
-srcVer=${currentLine#*\"}
-srcVer=${srcVer%%\"*}
-echo "$srcVer"
+# 读取plist中的版本号
+srcVer=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" ./$PodName.framework/Info.plist)
+echo "\n🔥版本号 = " "$srcVer"
 
 # ===============验证语法============================
 # 语法检查的原命令

@@ -17,6 +17,6 @@ Pod::Spec.new do |spec|
   spec.frameworks = "Foundation", "UIKit" #依赖多个系统framework
   spec.libraries = 'xml2' # 004号 坑
 
-  spec.dependency "NoxmobiSDK" #依赖三方的库，如果想要添加多个依赖，不可以用逗号隔开，应该依赖一个写一句。
+  # spec.dependency "NoxmobiSDK" #依赖三方的库，如果想要添加多个依赖，不可以用逗号隔开，应该依赖一个写一句。
   spec.dependency "SDWebImage"
 end

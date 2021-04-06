@@ -21,7 +21,7 @@ gitCommitRes=`git commit -m v$commitString`
 echo "$gitCommitRes"
 
 echo "\n🔥推送到远程 git push："
-gitPushRes=`git push origin master`
+gitPushRes=`git push origin main`
 echo "$gitPushRes"
 
 echo "\n🔥打本地标签 git tag："
