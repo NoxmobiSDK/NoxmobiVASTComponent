@@ -7,6 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define NoxmobiVASTComponentVersion @"1.2.3"
+#define NoxmobiVASTComponentVersion @"1.2.5"
 
 
