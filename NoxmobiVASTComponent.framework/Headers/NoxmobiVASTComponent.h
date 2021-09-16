@@ -7,6 +7,11 @@
 
 #import <Foundation/Foundation.h>
 
-#define NoxmobiVASTComponentVersion @"1.2.6"
+#define NoxmobiVASTComponentVersion @"1.2.7"
 
+@interface NoxmobiVASTComponent : NSObject
+
++ (NSString *)sdkVersion;
+
+@end
 
