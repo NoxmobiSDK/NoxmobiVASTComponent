@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "NoxmobiVASTComponent"
-  spec.version      = "1.2.7" #此处要与上传到Git的tag一致
+  spec.version      = "1.2.8" #此处要与上传到Git的tag一致
   spec.summary      = "A VAST protocol XML file parser by Noxmobi." #摘要，随便写
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiVASTComponent" #主页，随便写
   spec.license      = "MIT" #许可证类型，我只会MIT，其它的请自行Google
